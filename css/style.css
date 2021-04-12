@@ -1,0 +1,260 @@
+/* General
+------------------------------------------------------------- */
+body{
+    font-family: Roboto, sans-serif;
+    position:relative;
+}
+.section-title{
+    color:rgb(227,46,66);
+}
+
+/* Header
+------------------------------------------------------------- */
+/* Logo */
+.logo{
+    max-width:200px;
+}
+/* Menu */
+.bg-dark{
+    line-height: 2;
+    background-color:rgba(2,2,2,0.85)!important;       
+}
+.navbar-dark{    
+    background-color:transparent!important;   
+}
+.navbar-dark .navbar-nav .nav-item{
+    padding-left:10px;
+    padding-right:10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+    font-size:15px;
+    font-weight: 100;
+}
+.nav-link.active{
+    padding-bottom:10px;
+    border-bottom: 2px solid rgb(227,46,66);
+    border-radius:5px;   
+    padding-left:20px!important;
+    padding-right:20px!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:rgb(227,46,66);
+}
+/* Mobile menu */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler{
+    border:rgb(227,46,66)!important;
+    outline:none;    
+}
+
+
+/* Hero image
+------------------------------------------------------------- */
+.hero {
+    height:98vh;
+    background: url('../images/joker.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+/* Text */
+.hero-intro{
+    color:rgb(227,227,227)!important;
+    font-weight: 500;
+}
+.hero-maintitle{
+    font-family:'Russo One','Roboto',sans-serif;
+    color:#fff;
+ }
+ .hero-subtitle{
+    color:rgb(227,227,227);
+    font-size:1.5rem;
+    font-weight:100;
+} 
+.hero-link{
+    color:#fff;
+}
+.hero-link:hover{
+    color:rgba(255,255,255,0.6);
+}
+ /* Button */
+.hero-btn,.btn-register{
+     background-color:rgb(227,46,66);
+     color:#fff;
+     font-weight: 300;      
+ } 
+.hero-btn:hover,.btn-register:hover{
+    background-color:rgba(227,46,66,.65);
+    color:#fff;
+}
+
+/* About section
+------------------------------------------------------------- */
+/* Paragraph */
+.about-text{
+    text-indent: 50px;
+    font-weight: 300;
+}
+.about-link{
+    color:rgb(227,46,66);
+}
+.about-link:hover{
+    color:rgba(227,46,66,.8);
+}
+
+/* News section
+------------------------------------------------------------- */
+.news{
+    background-color:rgba(2,2,2,0.98);
+}
+/* Title */
+.news .section-title{
+    color:#fff;
+}
+/* Card */
+.news .card-title {
+    border-top: 7px solid #191C22;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: -1px 3px 40px 0px rgba(2,2,2,0.2);
+}
+.news-link{
+    color:rgb(81,81,81);
+    font-weight:500;
+}
+.news-link:hover{
+    color:#191C22;
+}
+
+/* Films section
+------------------------------------------------------------- */
+/* Group button */
+.btn-group button{
+    outline: none;
+}
+.btn-films{
+    background-color:rgba(227,46,66,0.96);
+    color:#fff;
+    font-weight: 300;
+}
+.btn-films:hover, .btn-group .btn:not(:disabled):not(.disabled).active{
+    color:rgb(81,81,81);
+    background-color:#fff;
+    border:1px solid rgb(227,46,66);
+    font-weight: 500;
+}
+/* Card */
+.image-card{
+    border-radius:.5rem .5rem 0 0;
+}
+.films .card-body{
+    box-shadow: -1px 3px 40px 0px rgba(2,2,2,0.2);  
+    min-height:200px;
+    padding: 1.25rem 0.8rem;
+}
+/* Badge */
+.badge{
+    font-size:15px;
+    background-color: rgb(227,46,66);
+    color:rgb(227,227,227);
+    font-weight: 500;
+}
+/* Button */
+.btn-fest{
+    background-color:rgba(2,2,2,0.8);
+    color:#fff;
+    font-weight: 300;  
+ }
+.btn-fest:hover{
+    background-color:rgba(2,2,2,0.7);
+    color:#fff;
+ }
+/* Modal */
+.modal-image{
+	width:50%;
+}
+.modal-body{
+    max-height:600px;
+}
+/* Collapse */
+.collapsing {
+    visibility: hidden!important;    
+    transition-duration: 0.1s ;
+}
+
+
+/* Register section
+------------------------------------------------------------- */
+.form{
+    padding: 50px 50px 25px;
+	border-radius:10px;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: -1px 3px 40px 0px rgba(2,2,2,0.2);
+    z-index: 1;
+}
+.form-control{
+    border-radius: .8rem;
+}
+.form-control:focus{
+    border-color:rgb(81,81,81);
+}
+input::placeholder,textarea::placeholder{
+	font-size:.9rem;
+}
+.form-check-label{
+    font-weight: 500;
+    color: rgba(81,81,81,0.9);
+}
+
+/* Footer
+------------------------------------------------------------- */
+.footer{
+    background-color:rgb(2,2,2);
+    color: rgb(227,227,227);
+}
+.footer-title{
+    font-size:1.5rem;
+}
+.footer-titlered{
+    color:rgb(227,46,66);
+}
+.footer-link{
+    color: rgb(227,227,227);
+}
+.footer-link:hover{
+    color: rgba(227,46,66,0.7);
+}
+
+
+/* Media queries
+------------------------------------------------------------- */
+/* Mobile */
+@media screen and (max-width: 600px){    
+    .footer .mx-4{
+        margin-right:1rem!important;
+        margin-left:1rem!important;
+    }
+}
+@media screen and (max-width: 575px){  
+    .hero-maintitle{
+        font-size:2rem;
+    }
+    .hero-linkWrapper{
+        padding-top:1.2rem!important;
+    }
+}
+
+/* Mobile to large screen*/
+@media screen and (min-width: 576px) and (max-width: 1199px){
+    .hero-maintitle{
+        font-size:2.2rem;
+    }
+}
+
+

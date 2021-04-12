@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Film Festival</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="10">      
+        <header  class="header bg-dark fixed-top mb-0 ">
+            <div class="container">
+                <div class="row">
+                    <nav class="col navbar navbar-expand-lg bg-dark navbar-dark ">
+                        <a class="col-4 navbar-brand text-left justify-content-start" href="index.html">
+                            <img src="images/logo.png" class="logo" alt="logo">
+                        </a>
+                        <button id="button-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                            <span  class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="navbarContent" class="collapse navbar-collapse col-12 col-lg-8 justify-content-end">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item ">
+                                    <a class="nav-link px-2" href="#hero">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-2" href="#news">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link px-2" href="#films">Films</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link px-2" href="#register">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- Hero image -->        
+        <section id ="hero" class="hero d-flex align-items-center m-0">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-12 col-md-8 col-lg-6 col-xl-6">
+                        <p class="hero-intro text-uppercase">This summer</p>
+                        <h1 class="hero-maintitle text-uppercase display-4" >Watch it outside Boston edition</h1>
+                        <p class="hero-subtitle">05 - 08 August 2020</p>
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-12 col-sm-4 col-md-5 col-lg-5 col-xl-4 ">
+                                <a href="#register" class="btn btn-large shadow-none hero-btn px-5">Register</a>
+                            </div>
+                            <div class="col-12 col-sm-8 col-md-7 col-lg-7 col-xl-8">
+                                <p class="hero-linkWrapper m-0 p-0">
+                                    <a href="#about" class="hero-link  text-decoration-none "> Learn more about the event</a>  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--About section -->        
+        <section id="about" class="p-5">            
+            <h2 class="text-uppercase text-center p-4 section-title ">The film festival</h2>
+            <div class="container p-4">                
+                <div class="text-justify about-text">
+                    <p>
+                        “Watch it outside” is organizing an outdoor film festival and are set to launch this year an event : “Watch it outside 
+                        Boston edition” to be held from August 5th to 8th in <strong>Boston Public Garden </strong>, a park in Boston that 
+                        can hold up to 1,500 people.This event is not only aimed at residents of Boston and its surroundings, 
+                        families and film lovers but also tourists.
+                    </p>
+                    <p>
+                        We offer you, each evening, to discover or rediscover a  selection of films. You can find the programs during the 
+                        four days of the festival on our <a href="#films" class="text-decoration-none about-link font-weight-bold">programs 
+                        section</a>. All film screenings start at 6 p.m. and last until midnight. 
+                    </p>
+                    <p>
+                        The event is free but, only registered people can attend the event, so hurry to register online
+                        to get a ticket and attend the film festival.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--News section -->
+        <section id="news" class="news py-5">
+            <h2 class="text-center text-uppercase p-4 section-title"> Latest news </h2>
+            <div class="container p-4">                
+                <div class="row  justify-content-around">
+                    <div class="card col-8 col-md-5 col-lg-3 col-xl-3 mr-4 mb-4" >
+                        <img class="card-img-top" src="images/festival.jpg" alt="Festival opening">
+                        <div class="card-body">
+                            <h4 class="card-title"> Festival Opening </h4>
+                            <p class="card-text ">
+                                Everything moves outdoor during the summer, and film screenings are no exception.
+                                High-quality of sound and picture with superb settings under the stars.
+                            </p>
+                            <p class="text-right m-0">
+                                <a href="#" class="news-link text-decoration-none">Read more</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-8 col-md-5 col-lg-3 col-xl-3 mr-4 mb-4" >
+                        <img class="card-img-top" src="images/register.jpg" alt="Festival register">
+                        <div class="card-body">
+                            <h4 class="card-title">Register now</h4>
+                            <p class="card-text ">
+                                Fancy a movie under the stars on Boston? Watch it outside invites cinephiles to watch
+                                films during 4 days. Films are shown in English. Admission is free.
+                            </p>
+                            <p class="text-right m-0">
+                                <a href="#" class="news-link text-decoration-none">Read more</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-8 col-md-5 col-lg-3 col-xl-3 mr-4 mb-4" >
+                        <img class="card-img-top" src="images/films.jpg" alt="Festival films">
+                        <div class="card-body">
+                            <h4 class="card-title">Films </h4>
+                            <p class="card-text">
+                                The festival features a program of world-class international films,
+                                as well as interesting, lesser-known releases – all screened in their original language.                                                            
+                            </p>
+                            <p class="text-right m-0">
+                                <a href="#" class="news-link text-decoration-none">Read more</a>
+                            </p> 
+                        </div>
+                    </div>
+                    <div class="card col-8 col-md-5 col-lg-3 col-xl-3 mr-4 mb-4" >
+                        <img class="card-img-top" src="images/security.jpg" alt="Festival security">
+                        <div class="card-body">
+                            <h4 class="card-title">Security at festival</h4>
+                            <p class="card-text">
+                                We have hired a whole staff to ensure safety during the festival.
+                                Everything has been thought out for you to have a good time with family and friends 
+                                
+                            </p>
+                            <p class="text-right m-0">
+                                <a href="#" class="news-link text-decoration-none">Read more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Films-->
+        <section id="films" class="films pt-5">
+            <div class="container">
+                <h2 class="text-center text-uppercase p-4 section-title"> Programs </h2>
+                <p class="text-center">
+                    Find the list of all the films screened during the four days of the festival,
+                    as well as their approximate screening times.
+                </p>
+                <div class="accordion" id="accordionFilm">
+                    <div class="row  justify-content-center">
+                        <div class="btn-group  my-3 ">
+                            <button type="button" class="btn btn-films shadow-none py-3 active"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">August 5th</button>
+                            <button type="button" class="btn btn-films shadow-none py-3"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">August 6th</button>
+                            <button type="button" class="btn btn-films shadow-none py-3"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">August 7th</button>
+                            <button type="button" class="btn btn-films shadow-none py-3"  data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">August 8th</button>
+                        </div>
+                    </div>
+                    
+                    <div class="container p-4 collapse show" id="collapseOne"  data-parent="#accordionFilm">                
+                        <div class="row d-flex justify-content-around">
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/jokerposter.jpg" alt="Joker">
+                                <div class="card-body">
+                                    <h4 class="card-title">Joker <br> <span class="badge">06:00pm </span></h4>
+                                    <p class="card-text ">
+                                        2h 02min <br> Drama
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalOne">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modalOne" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >Joker <span class="badge">06:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/jokerposter.jpg" alt="Joker">							   
+                                            <p>
+                                                Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.
+                                                Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt
+                                                 to feel like he's part of the world around him. Isolated, bullied and disregarded by society, 
+                                                Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0" >
+                                <img class="card-img-top image-card" src="images/1917.jpg" alt="1917">
+                                <div class="card-body">
+                                    <h4 class="card-title">1917 <br> <span class="badge ">08:30pm </span></h4>
+                                    <p class="card-text ">
+                                        1 h 59 min <br> Drama, Historical, War
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalTwo">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modalTwo" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title" >1917 <span class="badge">08:30pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image" src="images/1917.jpg" alt="1917">							   
+                                            <p> 
+                                                April 1917, the Western Front. Two British soldiers are sent to deliver an urgent message to an isolated regiment.
+                                                If the message is not received in time the regiment will walk into a trap and be massacred. 
+                                                To get to the regiment they will need to cross through enemy territory. Time is of the essence and the journey 
+                                                will be fraught with danger.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0" >
+                                <img class="card-img-top image-card" src="images/agirlmissing.jpg" alt="A girl missing">
+                                <div class="card-body">
+                                    <h4 class="card-title">A girl missing <br> <span class="badge ">10:30pm </span></h4>
+                                    <p class="card-text">
+                                        1 h 44 min <br> Drama
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalThree">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modalThree" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title" > A girl missing <span class="badge ">10:30pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image" src="images/agirlmissing.jpg" alt="A girl missing">							   
+                                            <p> 
+                                                Ichiko is a care-giver and a nurse. She provide home-care to the Oishos' elderly woman and is almost considered 
+                                                part of the family as she visits and performs her tasks routinely. What is more, Ichiko is helping Oisho Motoko 
+                                                to also become a care-giver and potentially replace her one day. The two have become close, which is useful when
+                                                Motoko's sister Saki disappears. She is returned safely one week later, but the kidnapper is too close to home.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                    <!--two-->  
+
+                    <div class="container p-4 collapse" id="collapseTwo"  data-parent="#accordionFilm">                
+                        <div class="row d-flex justify-content-around">
+                            
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/sonic.jpg" alt="Sonic">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sonic <br> <span class="badge">06:00pm </span></h4>
+                                    <p class="card-text ">
+                                        1 h 39 min <br> Adventure, Family
+                                    </p>  
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalfour">Story</button>                                  
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modalfour" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >Sonic <span class="badge">06:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/sonic.jpg" alt="Sonic">							   
+                                            <p>
+                                                The world needed a hero -- it got a hedgehog. Powered with incredible speed, Sonic embraces his
+                                                new home on Earth -- until he accidentally knocks out the power grid, sparking the attention of 
+                                                uncool evil genius Dr. Robotnik. Now, it's supervillain vs. supersonic in an all-out race across the globe
+                                                to stop Robotnik from using Sonic's unique power to achieve world domination.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/avengers.jpg" alt="Avengers End Game">
+                                <div class="card-body">
+                                    <h4 class="card-title">Avengers End Game<br><span class="badge">08:00pm</span></h4>
+                                    <p class="card-text ">
+                                        3h 01min <br> Action, Fantastic, Adventure
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalFive">Story</button>
+                                </div>                                
+                            </div>
+                            <div class="modal fade" id="modalFive" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >Avengers End Game <span class="badge">08:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/avengers.jpg" alt="Avengers End Game">							   
+                                            <p>
+                                                After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers
+                                                must reunite and assemble again to reinvigorate their trounced allies and restore balance.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/thecallofthewild.jpg" alt="The call of the wild">
+                                <div class="card-body">
+                                    <h4 class="card-title">The call of the wild <br> <span class="badge">11:00pm </span></h4>
+                                    <p class="card-text ">
+                                        1h 40min <br> Adventure, Drama, Family
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalSix">Story</button>
+                                </div>                                
+                            </div>
+                            <div class="modal fade" id="modalSix" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >The call of the wild <span class="badge">11:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/thecallofthewild.jpg" alt="The call of the wild">							   
+                                            <p>
+                                                Buck is a big-hearted dog whose blissful domestic life gets turned upside down when he is suddenly 
+                                                uprooted from his California home and transplanted to the exotic wilds of the Alaskan Yukon in the 1890s. 
+                                                As the newest rookie on a mail-delivery dog sled team, Buck experiences the adventure of a lifetime as he ultimately 
+                                                finds his true place in the world.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+
+                    <!-- Three -->
+                    <div class="container p-4 collapse" id="collapseThree"   data-parent="#accordionFilm">                
+                        <div class="row d-flex justify-content-around">
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/icanonlyimagine.jpg" alt="I can only imagine">
+                                <div class="card-body">
+                                    <h4 class="card-title">I can only imagine <br> <span class="badge">06:00pm </span></h4>
+                                    <p class="card-text ">
+                                        1h 40min <br> Adventure, Drama, Family
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalSeven">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modalSeven" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >I can only imagine <span class="badge">06:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/icanonlyimagine.jpg" alt="I can only imagine">							   
+                                            <p>
+                                                Growing up in Greenville, Texas, Bart Millard suffers physical and emotional abuse at the hands of his father,
+                                                Arthur. When Arthur becomes terminally ill, he finds redemption by embracing his faith and rediscovering his love
+                                                for his son. Years later, Bart's troubled childhood and mended relationship with his dad inspires him to write the 
+                                                hit song "I Can Only Imagine" as singer of the Christian band MercyMe.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/woodlawn.jpg" alt="Woodlawn">
+                                <div class="card-body">
+                                    <h4 class="card-title">Woodlawn <br> <span class="badge">08:00pm </span></h4>
+                                    <p class="card-text ">
+                                        2 h 03 min <br> Biopic, Drama
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modaleight">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modaleight" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >Woodlawn <span class="badge">08:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/woodlawn.jpg" alt="Woodlawn">							   
+                                            <p>
+                                                During the growing racial tensions in 1973, talented black high school footballer Tony Nathan, 
+                                                his teammates and the locals learn to overcome the hateful environment when an outsider inspires them.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/astarisborn.jpg" alt="A star is born">
+                                <div class="card-body">
+                                    <h4 class="card-title">A star is born <br> <span class="badge">10:00pm </span></h4>
+                                    <p class="card-text ">
+                                        2 h 16 min <br> Drama, Romance
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalnine">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modalnine" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >A star is born <span class="badge">10:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/astarisborn.jpg" alt="A star is born">							   
+                                            <p>
+                                                After falling in love with struggling artist Ally, Jackson, a musician, 
+                                                coaxes her to follow her dreams, while he battles with alcoholism and his personal demons.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Four -->
+                    <div class="container p-4 collapse " id="collapseFour"  data-parent="#accordionFilm">                
+                        <div class="row d-flex justify-content-around">
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/togo.jpg" alt="Togo">
+                                <div class="card-body">
+                                    <h4 class="card-title">Togo <br> <span class="badge">06:00pm </span></h4>
+                                    <p class="card-text ">
+                                        1 h 53 min <br> Adventure, Family, History
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modalten">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modalten" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >Togo <span class="badge">06:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/togo.jpg" alt="Togo">							   
+                                            <p>
+                                                The historical film by the American director Ericson Core, which is dedicated to the events 
+                                                of the Great Mercy Race of 1925. The events of the film unfold around the drover Leonhard Seppala 
+                                                and his dog Togo, who went together the longest leg in the relay.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/irishman.jpg" alt="Irishman">
+                                <div class="card-body">
+                                    <h4 class="card-title">Irishman <br> <span class="badge">08:00pm </span></h4>
+                                    <p class="card-text ">
+                                        3h 29min <br> Thriller, Biopic
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modaleleven">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modaleleven" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >Irishman <span class="badge">08:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/irishman.jpg" alt="Irishman">							   
+                                            <p>
+                                                Frank "The Irishman" Sheeran is a man with a lot on his mind. The former labor union high official and hitman, 
+                                                learned to kill serving in Italy during the Second World War. He now looks back on his life and the hits that
+                                                defined his mob career, maintaining connections with the Bufalino crime family. In particular, the part he claims 
+                                                to have played in the disappearance of his life-long friend, Jimmy Hoffa.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card col-9 col-md-5 col-lg-4 col-xl-3 mr-4 mb-4 border-0">
+                                <img class="card-img-top image-card" src="images/radioactive.jpg" alt="Radioactive">
+                                <div class="card-body">
+                                    <h4 class="card-title">Radioactive <br> <span class="badge">11:00pm </span></h4>
+                                    <p class="card-text ">
+                                        1h 50min <br> Drama, Romance, Biopic
+                                    </p>
+                                    <button class="btn btn-fest shadow-none d-block mx-auto px-5" data-toggle="modal" data-target="#modaltwelve">Story</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modaltwelve" tabindex="-1" role="dialog"  aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header justify-content-center">
+                                            <h5 class="modal-title " >Radioactive <span class="badge">11:00pm </span></h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img  class="d-block mx-auto py-4 modal-image " src="images/radioactive.jpg" alt="Radioactive">							   
+                                            <p>
+                                                The scientific and romantic passions of Marie Sklodowska-Curie and her husband Pierre Curie,
+                                                and the reverberations of their discoveries throughout the 20th century.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-fest shadow-none" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+            </div>
+        </section>
+
+        <!-- Register -->
+        <section id="register" class="pb-5">
+            <div class="container">
+                <h2 class="text-center text-uppercase p-4 section-title"> Register now </h2>
+                <p class="text-center mb-4">
+                    Select the date of your choice and enter your details to confirm the registering.
+                </p>
+                <div class="row">
+                    <form action="/action.php" class="form col-10 col-lg-8 mx-auto p-5">
+                        <div class="form-group">
+                            <label for="usr" class="font-weight-bold">Name</label>
+                            <input type="text" class="form-control shadow-none" id="usr" name="identity" placeholder="Jane" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mail" class="font-weight-bold">Email</label>
+                            <input type="email"  class="form-control shadow-none" id="mail" name="email" placeholder="jane@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comment" class="font-weight-bold">Message</label>
+                            <textarea class="form-control shadow-none" rows="5" id="comment" placeholder="Tell us more about your needs"></textarea>
+                        </div>
+                        <div class="form-check-inline  mr-4">
+                            <label class="form-check-label ">
+                            <input type="checkbox" class="form-check-input " value="">August 5th
+                            </label>
+                        </div>
+                        <div class="form-check-inline mr-4">
+                            <label class="form-check-label ">
+                            <input type="checkbox" class="form-check-input " value="">August 6th
+                            </label>
+                        </div>
+                        <div class="form-check-inline mr-4">
+                            <label class="form-check-label ">
+                            <input type="checkbox" class="form-check-input" value="" >August 7th
+                            </label>
+                        </div>
+                        <div class="form-check-inline mr-4">
+                            <label class="form-check-label ">
+                            <input type="checkbox" class="form-check-input" value="" >August 8th
+                            </label>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-register shadow-none px-4 ">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>                  
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-6 col-xl-6 text-center">
+                        <h3 class="footer-title mb-4"> Watch <span class="footer-titlered">it</span> outside </h3>
+                        <p>
+                            <a href="https://www.boston.com" class="text-decoration-none footer-link" target="_blank">Boston News</a>
+                        </p>
+                        <p>
+                            <a href="https://www.tdgarden.com" class="text-decoration-none footer-link" target="_blank">Boston garden</a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6 col-xl-6">
+                        <h3 class="footer-title text-center mb-4 text-uppercase">Get in touch</h3>
+                        <p class="text-center">
+                            <a href="https://www.twitter.com" target="_blank" class="text-decoration-none mx-4 footer-link ">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                            <a href="https://www.facebook.com " target="_blank" class="text-decoration-none mx-4 footer-link">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" class="text-decoration-none mx-4 footer-link">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </p>    
+                    </div>
+                </div>                
+            </div>
+        </footer>          
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
