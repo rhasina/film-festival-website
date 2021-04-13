@@ -2,6 +2,7 @@
 OpenClassrooms Front-End Developer path project: 'Analyze a client's needs for their film festival'
 ## Introduction
 This web page is a prototype for an outdoor film festival, which I designed and developed based on a brief with specific requirements.
+To see the result, please visit: https://rhasina.github.io/outdoor-film-festival
 ## Technologies
 The technologies I used were :
 - HTML5
